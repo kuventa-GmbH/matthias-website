@@ -19,7 +19,8 @@ section {
 
 body {
   margin: 0;
-  font-family: "Satoshi Regular";
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
   background: #fff;
   color: #111;
   overflow-x: hidden;
@@ -111,15 +112,16 @@ ul li:before {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 0;
   text-decoration: none;
   color: inherit;
-  padding: 8px;
+  padding: 0;
 }
 
 .brand-logo {
   width: 227px;
   height: 40px;
+  display: block;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -133,7 +135,8 @@ ul li:before {
 .nav-link {
   text-decoration: none;
   font-size: 18px;
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   color: #333;
   padding: 6px 2px;
   transition: color 0.16s ease;
@@ -174,7 +177,8 @@ ul li:before {
   font-weight: 500;
   font-size: 16px;
   border: 1px solid transparent;
-  font-family: "Satoshi Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
 .btn-primary {
@@ -224,7 +228,8 @@ ul li:before {
 
 .sec-heading {
   font-size: 40px;
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   color: #0c0b20;
   line-height: 64px;
 }
@@ -239,14 +244,16 @@ ul li:before {
 
 .card h3 {
   font-size: 20px;
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   color: #0c0b20;
   line-height: 32px;
   margin-bottom: 8px;
 }
 .card p {
   font-size: 20px;
-  font-family: "Satoshi Light";
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
   color: #333333;
   line-height: 32px;
 }
@@ -275,7 +282,8 @@ ul li:before {
   text-align: left;
   padding-inline-start: 28px;
   font-size: 20px;
-  font-family: "Satoshi Light";
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
   line-height: 32px;
 }
 .services-section ul li:before {
@@ -284,7 +292,8 @@ ul li:before {
   inset-inline-start: 0;
 }
 .services-section ul li span {
-  font-family: "Satoshi Regular";
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 .hero {
@@ -300,7 +309,8 @@ ul li:before {
   color: #0c0b20;
   font-size: 70px;
   line-height: 1.1;
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
 }
 .hero-title .accent {
   color: #082D0F;
@@ -329,7 +339,8 @@ ul li:before {
 }
 .benefit h3 {
   color: #0c0b20;
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   font-size: 30px;
   line-height: 40px;
 }
@@ -351,7 +362,8 @@ ul li:before {
   inset-inline-start: 0;
 }
 .benefit ul li span {
-  font-family: "Satoshi Regular";
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 .form {
@@ -401,14 +413,16 @@ textarea:focus {
   font-size: 30px;
   margin: 40px 0 16px;
   color: #082D0F;
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
 }
 .process-content h5 {
   font-size: 24px;
   color: #333333;
   line-height: 34px;
   margin: 16px 0 24px;
-  font-family: "Satoshi Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   font-weight: 500;
 }
 
@@ -601,7 +615,8 @@ textarea:focus {
 .about-intro h1 {
   font-size: 50px;
   color: #0c0b20;
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   line-height: 65px;
   margin: 0 0 24px;
 }
@@ -639,7 +654,8 @@ textarea:focus {
   font-size: 30px;
   margin: 0px 0 16px;
   color: #082D0F;
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
 }
 
 /* Experience */
@@ -670,7 +686,8 @@ textarea:focus {
 }
 
 .exp-company {
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   font-size: 25px;
   color: #0c0b20;
   margin-bottom: 10px;
@@ -678,7 +695,8 @@ textarea:focus {
 
 .exp-role {
   color: #757575;
-  font-family: "Satoshi Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   line-height: 32px;
   font-size: 20px;
   font-style: italic;
@@ -686,7 +704,8 @@ textarea:focus {
 
 .exp-date {
   color: #757575;
-  font-family: "Satoshi Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   line-height: 32px;
   font-size: 20px;
 }
@@ -717,13 +736,15 @@ textarea:focus {
 
 .edu-date {
   color: #757575;
-  font-family: "Satoshi Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   line-height: 32px;
   font-size: 20px;
 }
 
 .edu-title {
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   font-size: 25px;
   color: #0c0b20;
   margin: 10px 0;
@@ -731,7 +752,8 @@ textarea:focus {
 
 .edu-org {
   color: #757575;
-  font-family: "Satoshi Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   line-height: 32px;
   font-size: 24px;
   font-style: italic;
@@ -755,7 +777,8 @@ textarea:focus {
 .skill-card h3 {
   font-size: 25px;
   color: #0c0b20;
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   line-height: 32px;
   margin: 0 0 16px;
 }
@@ -787,7 +810,8 @@ textarea:focus {
 .lang-name {
   font-size: 25px;
   color: #0c0b20;
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   line-height: 32px;
   margin-bottom: 16px;
 }
@@ -835,7 +859,8 @@ textarea:focus {
 .cta-content h2 {
   font-size: 40px;
   color: #0c0b20;
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   line-height: 48px;
   margin: 16px 0 24px;
 }
@@ -906,7 +931,8 @@ textarea:focus {
   background: #fff;
   color: #0c0b20;
   text-decoration: none;
-  font-family: "Satoshi Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   font-size: 15px;
   cursor: pointer;
   transition: 0.18s ease;
@@ -961,12 +987,14 @@ textarea:focus {
   text-transform: uppercase;
   color: #0f4f83;
   margin-bottom: 12px;
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
 }
 
 .contact-direct__value {
   display: block;
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   font-size: clamp(28px, 2.2vw, 36px);
   line-height: 1.18;
   color: #0c0b20;
@@ -1193,12 +1221,14 @@ textarea:focus {
 .legal-wrap .legal-toc-title {
   margin-bottom: 24px;
   line-height: 40px;
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
 }
 .legal-wrap .legal-toc ol {
   margin: 0;
   padding-left: 30px;
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   font-size: 25px;
   display: grid;
   gap: 16px;
@@ -1214,21 +1244,24 @@ textarea:focus {
   text-align: left;
 }
 .legal-wrap .legal-content h2 {
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   font-size: 30px;
   color: #0c0b20;
   margin: 40px 0 24px;
   line-height: 40px;
 }
 .legal-wrap .legal-content h3 {
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   font-size: 25px;
   color: #0c0b20;
   margin: 24px 0 8px;
   line-height: 33px;
 }
 .legal-wrap .legal-content h4 {
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   font-size: 22px;
   color: #0c0b20;
   margin: 20px 0 0;
@@ -1676,7 +1709,8 @@ textarea:focus {
   margin-top: 12px;
 }
 .blog-kicker {
-  font-family: "Satoshi Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-size: 14px;
@@ -1738,7 +1772,8 @@ textarea:focus {
 }
 .blog-entry-link {
   display: inline-block;
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   color: #082D0F;
   text-decoration: none;
   border-bottom: 1px solid transparent;
@@ -1747,7 +1782,8 @@ textarea:focus {
   border-color: #082D0F;
 }
 .blog-date {
-  font-family: "Satoshi Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   color: #4b5563;
   font-size: 14px;
   letter-spacing: 0.04em;
@@ -1828,14 +1864,16 @@ textarea:focus {
 .blog-post-content h2 {
   margin: 42px 0 14px;
   font-size: 40px;
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   color: #0c0b20;
   line-height: 52px;
 }
 .blog-post-content h3 {
   margin: 28px 0 8px;
   font-size: 30px;
-  font-family: "Satoshi Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   color: #082D0F;
   line-height: 40px;
 }
