@@ -15,7 +15,6 @@ plugins:
 linkedin_url: "https://www.linkedin.com/in/matthias-k%C3%BChnleinb85a53296"
 phone_display: "0176 / 26470813"
 phone_href: "+4917626470813"
-formspree_endpoint: "https://formspree.io/f/xyzzzzzz"
 default_og_image: "/assets/img/about/hero.webp"
 
 defaults:

@@ -12,35 +12,24 @@ permalink: /impressum/
   <div class="legal-content">
     <h2>Angaben gemäß § 5 TMG</h2>
     <p>
-      [PLATZHALTER: Vollständiger Name / Firmenname]<br />
-      [PLATZHALTER: Rechtsform, falls zutreffend]<br />
-      [PLATZHALTER: Straße und Hausnummer]<br />
-      [PLATZHALTER: PLZ und Ort]<br />
-      [PLATZHALTER: Land]
+      Matthias Kühnlein<br />
+      Hochriesstraße 10<br />
+      84419 Schwindegg<br />
+      Deutschland
     </p>
 
     <h2>Kontakt</h2>
     <p>
-      Telefon: [PLATZHALTER: Telefonnummer]<br />
-      E-Mail: [PLATZHALTER: E-Mail-Adresse]
+      Telefon: +49 176 26470813<br />
+      E-Mail: matthiaskfh@gmail.com
     </p>
-
-    <h2>Vertretungsberechtigte Person</h2>
-    <p>[PLATZHALTER: Name der vertretungsberechtigten Person, falls erforderlich]</p>
-
-    <h2>Registereintrag (falls vorhanden)</h2>
-    <p>
-      Registergericht: [PLATZHALTER]<br />
-      Registernummer: [PLATZHALTER]
-    </p>
-
-    <h2>Umsatzsteuer-ID (falls vorhanden)</h2>
-    <p>[PLATZHALTER: Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG]</p>
 
     <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
     <p>
-      [PLATZHALTER: Name]<br />
-      [PLATZHALTER: Anschrift]
+      Matthias Kühnlein<br />
+      Hochriesstraße 10<br />
+      84419 Schwindegg<br />
+      Deutschland
     </p>
 
     <h2>Haftungshinweis</h2>
