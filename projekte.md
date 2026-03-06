@@ -87,7 +87,7 @@ nav_order: 4
       <article class="exp-row">
         <div class="exp-left">
           <div>
-            <div class="exp-company">IAM Teilprojekt für &gt;14.000 User</div>
+            <div class="exp-company">Projektleiter für die IAM Integration von 14.000 Anwendern</div>
             <div class="exp-role">One Identity</div>
           </div>
           <div class="exp-date">Transformationsprojekt</div>
