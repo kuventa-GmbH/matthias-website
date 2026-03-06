@@ -112,7 +112,7 @@ languages:
     - name: "Englisch"
       level: "Full Professional"
     - name: "Spanisch"
-      level: "Beruflich einsetzbar"
+      level: "Hola!"
 
 cta:
   image: "/assets/img/about/dennis.webp"
