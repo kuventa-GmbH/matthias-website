@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'de-DE' }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    {% assign seo_title = page.meta_title | default: page.title | default: site.title %}
+    {% assign seo_description = page.meta_description | default: page.description | default: site.description %}
+    {% assign seo_image = page.image | default: site.default_og_image %}
+
+    <title>{{ seo_title | escape }}</title>
+    <meta name="description" content="{{ seo_description | strip_html | strip_newlines | escape }}" />
+    <link rel="canonical" href="{{ page.url | absolute_url }}" />
+
+    <meta property="og:locale" content="de_DE" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ seo_title | escape }}" />
+    <meta property="og:description" content="{{ seo_description | strip_html | strip_newlines | escape }}" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:site_name" content="{{ site.title | escape }}" />
+    <meta property="og:image" content="{{ seo_image | absolute_url }}" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ seo_title | escape }}" />
+    <meta name="twitter:description" content="{{ seo_description | strip_html | strip_newlines | escape }}" />
+    <meta name="twitter:image" content="{{ seo_image | absolute_url }}" />
+
+    {% if page.noindex %}
+      <meta name="robots" content="noindex, nofollow" />
+    {% else %}
+      <meta name="robots" content="index, follow" />
+    {% endif %}
+
+    <link rel="stylesheet" href="{{ '/assets/fonts/fonts.css' | relative_url }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/animate.min.css' | relative_url }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Matthias Kühnlein",
+        "description": "IT Security Consultant für IT Compliance, ISO 27001, IAM, PAM und Risikomanagement.",
+        "url": "{{ site.url }}{{ site.baseurl }}",
+        "telephone": "+49 176 26470813",
+        "email": "{{ site.email }}",
+        "image": "{{ site.default_og_image | absolute_url }}",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "DE"
+        },
+        "sameAs": [
+          "{{ site.linkedin_url }}"
+        ],
+        "founder": {
+          "@type": "Person",
+          "name": "Matthias Kühnlein",
+          "jobTitle": "IT Security Consultant"
+        },
+        "areaServed": "Deutschland"
+      }
+    </script>
+  </head>
+  <body>
+    {% include navbar.html %}
+    <main id="main-content">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

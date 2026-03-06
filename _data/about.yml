@@ -1,0 +1,124 @@
+hero:
+  image: "/assets/img/about/hero.webp"
+  image_alt: "Dummy-Portrait von Matthias Kühnlein als Platzhalter"
+
+intro:
+  title: "Matthias Kühnlein – IT Security Consultant für Governance, Compliance und Umsetzung"
+  text: "Matthias Kühnlein begleitet Unternehmen seit vielen Jahren an der Schnittstelle von Informationssicherheit, Regulatorik und operativer Umsetzung. Sein Schwerpunkt liegt auf Mandaten, in denen technische Security-Themen und organisatorische Steuerung zusammengeführt werden müssen."
+  text2: "In Konzern- und Auditkontexten unterstützt er Verantwortliche dabei, Risiken transparent zu machen, Anforderungen verständlich aufzubereiten und Maßnahmen so zu steuern, dass sie im Tagesgeschäft tatsächlich greifen."
+  button_text: "Leistungsprofil ansehen"
+  button_link: "/leistungen/"
+  button_download: false
+
+focus:
+  heading: "Arbeitsweise und Beratungsschwerpunkte"
+  image: "/assets/img/home/config.svg"
+  image_alt: "Illustration für Beratungsansatz"
+  columns:
+    - title: "Regulatorik in umsetzbare Arbeit übersetzen"
+      points:
+        - "Analyse der Ist-Situation mit Fokus auf Risiken und Lücken"
+        - "Übersetzung regulatorischer Anforderungen in konkrete Maßnahmen"
+        - "Unterstützung bei Governance, Prozessen und Dokumentation"
+    - title: "IAM/PAM und Kontrollen wirksam aufstellen"
+      points:
+        - "Reifegradbewertung von IAM- und PAM-Strukturen"
+        - "Ableitung realistischer Zielbilder für Rollen- und Berechtigungskonzepte"
+        - "Begleitung von Umsetzung und Stakeholder-Abstimmung"
+    - title: "Managementfähig steuern und berichten"
+      points:
+        - "Aufbereitung von Ergebnissen für CIO/CISO-Entscheidungen"
+        - "Priorisierung von Maßnahmen nach Risiko und Wirkung"
+        - "Souveräne Kommunikation in komplexen Konzernstrukturen"
+
+experience:
+  heading: "Beruflicher Hintergrund"
+  items:
+    - company: "Metafinanz GmbH"
+      role: "IT-Security Expert"
+      date: "Aktuelle Rolle"
+      bullets:
+        - "Beratung zu Informationssicherheit, Compliance und Governance"
+        - "Steuerung sicherheitsnaher Initiativen in großen Organisationen"
+    - company: "Computacenter AG"
+      role: "IAM-Consultant"
+      date: "Frühere Rolle"
+      bullets:
+        - "Beratung und Umsetzung rund um Identity & Access Management"
+        - "Zusammenarbeit mit Fachbereichen, IT und Security"
+    - company: "Verschiedene Unternehmen"
+      role: "Testmanager, Teilprojektmanager, PMO, IT-Consultant"
+      date: "Langjährige Projekterfahrung"
+      bullets:
+        - "Programm- und Projektsteuerung in komplexen IT-Landschaften"
+        - "Verzahnung von Qualitätsmanagement, Audit und Delivery"
+      highlight: true
+
+education:
+  heading: "Zertifikate"
+  cards:
+    - date: ""
+      icon: "/assets/icons/lucide/badge-check.svg"
+      title: "ISMS Lead Auditor nach ISO/IEC 27001"
+      org: "Audit- und ISMS-Schwerpunkt"
+    - date: ""
+      icon: "/assets/icons/lucide/badge-check.svg"
+      title: "BSI Grundschutz Praktiker"
+      org: "Informationssicherheit"
+    - date: ""
+      icon: "/assets/icons/lucide/badge-check.svg"
+      title: "One Identity Implementer"
+      org: "IAM/PAM"
+    - date: ""
+      icon: "/assets/icons/lucide/badge-check.svg"
+      title: "Professional Scrum Master I (PSM I), PRINCE2 Foundation, ITIL Foundation"
+      org: "Projekt- und Servicemanagement"
+    - date: ""
+      icon: "/assets/icons/lucide/badge-check.svg"
+      title: "ISTQB Certified Tester Foundation Level & ISTQB Testmanager"
+      org: "Qualitätsmanagement und Teststeuerung"
+
+skills:
+  heading: "Kompetenzen, Methoden und Plattformen"
+  blocks:
+    - title: "Fachliche Schwerpunkte"
+      icon: "/assets/img/home/process.svg"
+      points:
+        - "IT Compliance"
+        - "ISO 27001 / ISMS"
+        - "DORA und VAIT"
+        - "IAM und PAM"
+        - "IT-Risikomanagement"
+    - title: "Technologien und Tools"
+      icon: "/assets/img/about/security.svg"
+      points:
+        - "One Identity"
+        - "SailPoint"
+        - "MidPoint"
+        - "Entra ID"
+        - "Jira, ALM, Office 365"
+    - title: "Projektmanagement und Umsetzungssteuerung"
+      icon: "/assets/img/home/path.svg"
+      points:
+        - "Agiles Projektmanagement sowie Teilprojektsteuerung in Security- und Compliance-Programmen"
+        - "Steuerung interdisziplinärer Stakeholder aus IT, Security und Fachbereichen"
+        - "PSM I und PRINCE2 Foundation als methodische Basis"
+
+languages:
+  heading: "Sprachen"
+  items:
+    - name: "Deutsch"
+      level: "Muttersprache"
+    - name: "Englisch"
+      level: "Full Professional"
+    - name: "Spanisch"
+      level: "Beruflich einsetzbar"
+
+cta:
+  image: "/assets/img/about/dennis.webp"
+  image_alt: "Dummy-Portrait von Matthias Kühnlein"
+  icon: "/assets/icons/lucide/handshake.svg"
+  title: "Interesse an einer Zusammenarbeit?"
+  text: "Ob Audit-Vorbereitung, IAM/PAM-Bewertung oder regulatoriknahe Programmsteuerung: Matthias Kühnlein unterstützt Sie mit einem klaren, umsetzungsorientierten Beratungsansatz."
+  button_text: "Jetzt Kontakt aufnehmen"
+  button_link: "/kontakt/"

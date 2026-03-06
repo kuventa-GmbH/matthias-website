@@ -1,0 +1,128 @@
+hero:
+  kicker: "IT Security Consulting für Konzerne und regulierte Unternehmen"
+  title_emphasis: "IT Compliance, IAM/PAM, ISO 27001 und Risikomanagement"
+  text: "Matthias Kühnlein unterstützt CIOs, CISOs, IT-Leiter und Programmverantwortliche dabei, regulatorische Anforderungen in belastbare Sicherheits- und Governance-Strukturen zu überführen. Der Fokus liegt auf klarer Analyse, priorisierten Maßnahmen und umsetzungsfähiger Steuerung in komplexen Konzernumfeldern."
+  primary_btn: "Kontakt aufnehmen"
+  primary_btn_link: "/kontakt/"
+  secondary_btn: "Leistungen ansehen"
+  secondary_btn_link: "/leistungen/"
+
+why:
+  image: "/assets/icons/lucide/shield-check.svg"
+  image_alt: "Symbol für verlässliche Beratung"
+  heading: "Vertrauensfaktoren auf einen Blick"
+  items:
+    - title: "Erfahrung in regulierten Branchen"
+      text: "Projektarbeit in Banken, Versicherungen, Behörden, Automotive, Logistik und produzierendem Gewerbe."
+      icon: "/assets/icons/lucide/shield.svg"
+    - title: "Audit- und Regulatorik-Praxis"
+      text: "Unterstützung bei Audit-Vorbereitung, Findings-Bearbeitung und Management-Kommunikation, unter anderem im BAFIN-Kontext."
+      icon: "/assets/icons/lucide/search.svg"
+    - title: "IAM/PAM mit Governance-Fokus"
+      text: "Bewertung von Reifegraden, Maßnahmenableitung und Umsetzungsbegleitung für tragfähige Zugriffs- und Kontrollmodelle."
+      icon: "/assets/icons/lucide/settings.svg"
+    - title: "Sicher in Konzernstrukturen"
+      text: "Steuerung komplexer Stakeholder-Landschaften zwischen Fachbereichen, IT, Security, Revision und Management."
+      icon: "/assets/icons/lucide/workflow.svg"
+
+services:
+  heading: "Leistungen in Kurzform"
+  blocks:
+    - title: "IT Compliance und Regulatorik"
+      points:
+        - "Übersetzung von Anforderungen aus <span>DORA, VAIT und internen Vorgaben</span> in klare Arbeitspakete"
+        - "Bewertung bestehender Kontrollen und Nachweise"
+        - "Management-taugliche Entscheidungsgrundlagen für Priorisierung und Umsetzung"
+      icon: "/assets/icons/lucide/briefcase.svg"
+    - title: "ISO 27001 / ISMS / Audit-Vorbereitung"
+      points:
+        - "Analyse der Ist-Situation im ISMS und strukturierte Gap-Bewertung"
+        - "Vorbereitung auf <span>interne und externe Audits</span>"
+        - "Dokumentation, Maßnahmenpläne und Begleitung bis zur Nachverfolgung"
+      icon: "/assets/icons/lucide/file-check.svg"
+    - title: "IAM- und PAM-Analyse"
+      points:
+        - "Bewertung von Rollen, Berechtigungen und privilegierten Zugriffen"
+        - "Identifikation von Risiken, Lücken und Handlungsfeldern"
+        - "Praxistaugliche Roadmaps für Governance und technische Umsetzung"
+      icon: "/assets/icons/lucide/users.svg"
+    - title: "IT-Risikomanagement"
+      points:
+        - "Risikobewertung von Anwendungen und Prozessen"
+        - "Aufbau nachvollziehbarer <span>Risikomatrizen</span> und Priorisierung"
+        - "Verknüpfung von Risiko, Compliance und Umsetzungssteuerung"
+      icon: "/assets/icons/lucide/git-branch.svg"
+
+process:
+  heading: "Für wen und in welchen Situationen"
+  text: "Die Zusammenarbeit ist auf große Unternehmen mit anspruchsvollen Sicherheits-, Compliance- und Governance-Anforderungen ausgerichtet: CIO-/CISO-Organisationen, IT-Bereichsleitungen, Programmleitungen, Fachentscheider sowie Recruiting-Verantwortliche für Interim- und Beratungsmandate."
+  sub-heading: "Typische Einsatzfelder"
+  sub-text1:
+    - "Vor Audits oder Assessments fehlt Transparenz über Risiken, Lücken und belastbare Nachweise."
+    - "IAM- oder PAM-Initiativen benötigen klare Governance, Priorisierung und steuerbare Umsetzung."
+    - "Regulatorische Vorgaben müssen in realistische Maßnahmen für Fachbereiche und IT übersetzt werden."
+  sub-text2: "Ziel ist eine nachvollziehbare Sicherheits- und Compliance-Architektur, die im Management tragfähig und in der Organisation umsetzbar ist."
+  image: "/assets/icons/lucide/waypoints.svg"
+  image_alt: "Illustration für strukturierte Vorgehensweise"
+  primary_btn: "Projektanfrage starten"
+  primary_btn_link: "/kontakt/"
+
+benefits:
+  heading: "Ausgewählte Projekterfahrung"
+  cards:
+    - title: "BAFIN-Audit-Unterstützung auf CIO-Ebene"
+      image: "/assets/img/blog/professional-reviewing-documents-and-laptop-in-an.png"
+      image_alt: "Platzhalterbild für Audit-Unterstützung"
+      points:
+        - "Ausgangssituation: Externes Audit mit hohem Zeitdruck"
+        - "Beitrag: Recoverypläne, Management-Präsentationen und Findings-Bearbeitung"
+        - "Kontext: ISO 27001, DORA"
+      text: "Mehrwert: Klare Handlungsprioritäten, verbesserte Audit-Fähigkeit und belastbare Kommunikation gegenüber Führung und Prüfern."
+    - title: "PAM Assessment in Konzernumfeld"
+      image: "/assets/img/blog/closeup-of-hands-holding-a-digital-keycard-and-a-t.png"
+      image_alt: "Platzhalterbild für PAM-Bewertung"
+      points:
+        - "Ausgangssituation: Unklare Transparenz über privilegierte Zugriffe"
+        - "Beitrag: Bewertung, Kategorisierung und Maßnahmenableitung"
+        - "Kontext: VAIT, One Identity"
+      text: "Mehrwert: Managementfähige Entscheidungsgrundlage und umsetzbare Roadmap für Governance, Prozesse und Kontrollen."
+    - title: "MFA Service als Business Owner"
+      image: "/assets/img/blog/business-meeting-in-a-modern-office-diverse-team-s.png"
+      image_alt: "Platzhalterbild für MFA-Service-Steuerung"
+      points:
+        - "Ausgangssituation: Mehrere MFA-Verfahren mit unterschiedlichen Stakeholdern"
+        - "Beitrag: KPI/SLA-Steuerung, Budget-Controlling, Dokumentationsprüfung"
+        - "Kontext: FIDO, YubiKey, Veridium"
+      text: "Mehrwert: Stabiler Servicebetrieb mit nachvollziehbarer Governance zwischen Security, Support, Finance und Entwicklung."
+    - title: "IAM-Teilprojekt für mehr als 14.000 User"
+      image: "/assets/img/blog/small-team-35-people-in-a-modern-office-discussing.png"
+      image_alt: "Platzhalterbild für IAM-Teilprojekt"
+      points:
+        - "Ausgangssituation: Integration eines Referats in neues IAM-System"
+        - "Beitrag: Prozessanalyse, Anpassung und Stakeholder-Koordination"
+        - "Kontext: One Identity"
+      text: "Mehrwert: Strukturierte Integration mit reduziertem Risiko und besserer Steuerbarkeit in einer komplexen Organisationslandschaft."
+
+climate:
+  heading: "Warum mit Matthias Kühnlein arbeiten"
+  text: "Matthias verbindet technische Tiefe mit regulatorischem Verständnis und Programmsteuerung. Kunden profitieren von einer Beratungsleistung, die nicht bei Konzepten endet, sondern konkrete Umsetzungsfähigkeit in Konzernrealität sicherstellt."
+  image: "/assets/img/about/dennis.webp"
+  image_alt: "Dummy-Portrait als Platzhalter"
+  primary_btn: "Mehr über Matthias"
+  primary_btn_link: "/ueber-mich/"
+  items:
+    - title: "Analyse statt Aktionismus"
+      text: "Zuerst Transparenz über Ist-Situation, Risiken und Abhängigkeiten, danach priorisierte Maßnahmenplanung."
+      icon: "/assets/icons/lucide/leaf.svg"
+    - title: "Entscheidungsorientierte Kommunikation"
+      text: "Ergebnisse werden so aufbereitet, dass Management und Fachbereiche sicher entscheiden können."
+      icon: "/assets/icons/lucide/train.svg"
+    - title: "Umsetzung in großen Organisationen"
+      text: "Erfahrung mit Governance, Dokumentation und Stakeholdersteuerung in komplexen Unternehmensstrukturen."
+      icon: "/assets/icons/lucide/target.svg"
+
+contact:
+  image: "/assets/icons/lucide/file-check.svg"
+  image_alt: "Symbolbild für Kontaktaufnahme"
+  heading: "Anfrage für Beratung, Interim-Mandat oder Programmunterstützung"
+  submit_text: "Anfrage senden"

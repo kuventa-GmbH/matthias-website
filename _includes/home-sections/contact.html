@@ -1,0 +1,25 @@
+<section class="section section-alt contact-section" id="kontakt-cta">
+  <div class="container">
+    <div class="heading-img js-anim" data-anim="animate__fadeInUp" data-once="true">
+      <img src="{{ site.data.home.contact.image | relative_url }}" alt="{{ site.data.home.contact.image_alt }}" loading="lazy" />
+    </div>
+    <h2 class="sec-heading center js-anim" data-anim="animate__fadeInUp" data-once="true">{{ site.data.home.contact.heading }}</h2>
+
+    <div class="contact-direct js-anim" data-anim="animate__fadeIn" data-once="true">
+      <article class="contact-direct__item">
+        <span class="contact-direct__label">Telefon</span>
+        <span class="contact-direct__value">{{ site.phone_display }}</span>
+        <div class="contact-direct__actions">
+          <a class="contact-direct__btn contact-direct__btn--primary" href="tel:{{ site.phone_href }}">Direkt anrufen</a>
+        </div>
+      </article>
+      <article class="contact-direct__item">
+        <span class="contact-direct__label">E-Mail</span>
+        <span class="contact-direct__value">{{ site.email }}</span>
+        <div class="contact-direct__actions">
+          <a class="contact-direct__btn contact-direct__btn--primary" href="mailto:{{ site.email }}">E-Mail senden</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>

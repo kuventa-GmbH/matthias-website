@@ -1,0 +1,22 @@
+<section class="section benefits-sec" id="projekte-auszug">
+  <div class="container">
+    <h2 class="sec-heading center">{{ site.data.home.benefits.heading }}</h2>
+
+    <div class="benefits-grid">
+      {% for c in site.data.home.benefits.cards %}
+        <article class="benefit">
+          <img class="benefit-img" src="{{ c.image | relative_url }}" alt="{{ c.image_alt }}" loading="lazy" />
+          <div>
+            <h3>{{ c.title }}</h3>
+            <ul class="list">
+              {% for p in c.points %}
+                <li>{{ p }}</li>
+              {% endfor %}
+            </ul>
+            <p>{{ c.text }}</p>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
