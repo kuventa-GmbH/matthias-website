@@ -38,6 +38,7 @@
     <link rel="stylesheet" href="{{ '/assets/fonts/fonts.css' | relative_url }}" />
     <link rel="stylesheet" href="{{ '/assets/css/animate.min.css' | relative_url }}" />
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}" />
+    <link rel="stylesheet" href="{{ '/cookie-banner/cookiebanner.style.css' | relative_url }}" />
 
     <script type="application/ld+json">
       {
@@ -71,5 +72,15 @@
       {{ content }}
     </main>
     {% include footer.html %}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{ '/cookie-banner/cookiebanner.script.js' | relative_url }}"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        if (window.cookieBanner && typeof window.cookieBanner.init === "function") {
+          window.cookieBanner.init();
+        }
+      });
+    </script>
   </body>
 </html>
