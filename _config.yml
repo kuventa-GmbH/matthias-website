@@ -15,7 +15,7 @@ plugins:
 linkedin_url: "https://www.linkedin.com/in/matthias-k%C3%BChnleinb85a53296"
 phone_display: "0176 / 26470813"
 phone_href: "+4917626470813"
-default_og_image: "/assets/img/about/hero.webp"
+default_og_image: "/assets/img/about/ich.jpg"
 
 defaults:
   - scope:
@@ -23,7 +23,7 @@ defaults:
       type: "pages"
     values:
       layout: default
-      image: "/assets/img/about/hero.webp"
+      image: "/assets/img/about/ich.jpg"
 
 exclude:
   - vendor

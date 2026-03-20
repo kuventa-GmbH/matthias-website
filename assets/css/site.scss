@@ -1242,6 +1242,25 @@ textarea:focus {
   .legal-content a:hover {
     text-decoration: underline;
   }
+
+  .legal-content .m-elements,
+  .legal-content .glossary {
+    padding-left: 24px;
+  }
+
+  .legal-content .m-elements li,
+  .legal-content .glossary li {
+    margin-bottom: 14px;
+  }
+
+  .legal-content .seal {
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid #e5e7eb;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6b7280;
+  }
 }
 
 .to-top {

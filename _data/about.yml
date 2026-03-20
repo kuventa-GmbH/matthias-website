@@ -1,6 +1,6 @@
 hero:
-  image: "/assets/img/about/hero.webp"
-  image_alt: "Dummy-Portrait von Matthias Kühnlein als Platzhalter"
+  image: "/assets/img/about/ich.jpg"
+  image_alt: "Porträt von Matthias Kühnlein"
 
 intro:
   title: "Matthias Kühnlein – IT Security Consultant für Governance, Compliance und Umsetzung"
@@ -115,8 +115,8 @@ languages:
       level: "Hola!"
 
 cta:
-  image: "/assets/img/about/dennis.webp"
-  image_alt: "Dummy-Portrait von Matthias Kühnlein"
+  image: "/assets/img/about/ich.jpg"
+  image_alt: "Porträt von Matthias Kühnlein"
   icon: "/assets/icons/lucide/handshake.svg"
   title: "Interesse an einer Zusammenarbeit?"
   text: "Ob Audit-Vorbereitung, IAM/PAM-Bewertung oder regulatoriknahe Programmsteuerung: Matthias Kühnlein unterstützt Sie mit einem klaren, umsetzungsorientierten Beratungsansatz."

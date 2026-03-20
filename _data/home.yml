@@ -62,8 +62,6 @@ process:
     - "IAM- oder PAM-Initiativen benötigen klare Governance, Priorisierung und steuerbare Umsetzung."
     - "Regulatorische Vorgaben müssen in realistische Maßnahmen für Fachbereiche und IT übersetzt werden."
   sub-text2: "Ziel ist eine nachvollziehbare Sicherheits- und Compliance-Architektur, die im Management tragfähig und in der Organisation umsetzbar ist."
-  image: "/assets/icons/lucide/waypoints.svg"
-  image_alt: "Illustration für strukturierte Vorgehensweise"
   primary_btn: "Projektanfrage starten"
   primary_btn_link: "/kontakt/"
 
@@ -106,8 +104,8 @@ benefits:
 climate:
   heading: "Warum mit Matthias Kühnlein arbeiten"
   text: "Matthias verbindet technische Tiefe mit regulatorischem Verständnis und Programmsteuerung. Kunden profitieren von einer Beratungsleistung, die nicht bei Konzepten endet, sondern konkrete Umsetzungsfähigkeit in Konzernrealität sicherstellt."
-  image: "/assets/img/about/dennis.webp"
-  image_alt: "Dummy-Portrait als Platzhalter"
+  image: "/assets/img/about/ich.jpg"
+  image_alt: "Porträt von Matthias Kühnlein"
   primary_btn: "Mehr über Matthias"
   primary_btn_link: "/ueber-mich/"
   items:
