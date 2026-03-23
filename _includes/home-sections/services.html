@@ -5,7 +5,7 @@
     <div class="cards cards-3">
       {% for s in site.data.home.services.blocks %}
         <div class="card">
-          <div class="card-icon"><img src="{{ s.icon | relative_url }}" alt="" loading="lazy" /></div>
+          <div class="card-icon"><img src="{{ s.icon }}" alt="" loading="lazy" /></div>
           <h3>{{ s.title }}</h3>
           <ul class="list">
             {% for p in s.points %}

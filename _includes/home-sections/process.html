@@ -2,7 +2,7 @@
   <div class="container process">
     <div class="process-content js-anim" data-anim="animate__fadeInRight">
       <div class="heading-img">
-        <img src="{{ '/assets/img/home/config.svg' | relative_url }}" alt="Konfigurationssymbol" loading="lazy" />
+        <img src="/assets/img/home/config.svg" alt="Konfigurationssymbol" loading="lazy" />
       </div>
       <h2 class="sec-heading">{{ site.data.home.process.heading }}</h2>
       <p>{{ site.data.home.process.text }}</p>
@@ -12,7 +12,7 @@
       {% endfor %}
       <h5>{{ site.data.home.process.sub-text2 }}</h5>
 
-      <a href="{{ site.data.home.process.primary_btn_link | relative_url }}" class="btn btn-primary">
+      <a href="{{ site.data.home.process.primary_btn_link }}" class="btn btn-primary">
         {{ site.data.home.process.primary_btn }}
       </a>
     </div>

@@ -1,8 +1,8 @@
 <footer class="site-footer">
   <div class="container footer-top">
     <div class="footer-left">
-      <a class="footer-brand" href="{{ '/' | relative_url }}">
-        <img class="footer-logo" src="{{ '/assets/img/logo.png' | relative_url }}" alt="Matthias Kühnlein" />
+      <a class="footer-brand" href="/">
+        <img class="footer-logo" src="/assets/img/logo.png" alt="Matthias Kühnlein" />
       </a>
 
       <div class="footer-address">
@@ -13,14 +13,14 @@
       <div class="footer-contact">
         <a class="footer-contact-item" href="mailto:{{ site.email }}">
           <span class="icon" aria-hidden="true">
-            <img src="{{ '/assets/icons/lucide/mail.svg' | relative_url }}" alt="" loading="lazy" />
+            <img src="/assets/icons/lucide/mail.svg" alt="" loading="lazy" />
           </span>
           <span>{{ site.email }}</span>
         </a>
 
         <a class="footer-contact-item" href="tel:{{ site.phone_href }}">
           <span class="icon" aria-hidden="true">
-            <img src="{{ '/assets/icons/lucide/phone.svg' | relative_url }}" alt="" loading="lazy" />
+            <img src="/assets/icons/lucide/phone.svg" alt="" loading="lazy" />
           </span>
           <span>{{ site.phone_display }}</span>
         </a>
@@ -28,18 +28,18 @@
     </div>
 
     <nav class="footer-nav" aria-label="Schnellzugriff">
-      <a href="{{ '/' | relative_url }}" class="footer-link {% if page.url == '/' %}is-active{% endif %}">Start</a>
-      <a href="{{ '/ueber-mich/' | relative_url }}" class="footer-link {% if page.url contains '/ueber-mich/' %}is-active{% endif %}">Über mich</a>
-      <a href="{{ '/leistungen/' | relative_url }}" class="footer-link {% if page.url contains '/leistungen/' %}is-active{% endif %}">Leistungen</a>
-      <a href="{{ '/projekte/' | relative_url }}" class="footer-link {% if page.url contains '/projekte/' %}is-active{% endif %}">Projekte</a>
-      <a href="{{ '/kontakt/' | relative_url }}" class="footer-link {% if page.url contains '/kontakt/' %}is-active{% endif %}">Kontakt</a>
+      <a href="/" class="footer-link {% if page.url == '/' %}is-active{% endif %}">Start</a>
+      <a href="/ueber-mich/" class="footer-link {% if page.url contains '/ueber-mich/' %}is-active{% endif %}">Über mich</a>
+      <a href="/leistungen/" class="footer-link {% if page.url contains '/leistungen/' %}is-active{% endif %}">Leistungen</a>
+      <a href="/projekte/" class="footer-link {% if page.url contains '/projekte/' %}is-active{% endif %}">Projekte</a>
+      <a href="/kontakt/" class="footer-link {% if page.url contains '/kontakt/' %}is-active{% endif %}">Kontakt</a>
     </nav>
   </div>
 
   <div class="container footer-bottom">
     <div class="footer-legal">
-      <a href="{{ '/impressum/' | relative_url }}">Impressum</a>
-      <a href="{{ '/datenschutz/' | relative_url }}">Datenschutzerklärung</a>
+      <a href="/impressum/">Impressum</a>
+      <a href="/datenschutz/">Datenschutzerklärung</a>
     </div>
 
     <div class="footer-copy">

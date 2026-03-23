@@ -4,7 +4,7 @@
     <p class="lead js-anim" data-anim="animate__fadeInLeft" data-once="true">{{ site.data.about.intro.text }}</p>
     <p class="lead js-anim" data-anim="animate__fadeInLeft" data-once="true">{{ site.data.about.intro.text2 }}</p>
     <a class="btn btn-secondary"
-       href="{{ site.data.about.intro.button_link | relative_url }}"
+       href="{{ site.data.about.intro.button_link }}"
        {% if site.data.about.intro.button_download %}
        download="{{ site.data.about.intro.button_download_filename | default: 'cv.pdf' }}"
        {% endif %}>

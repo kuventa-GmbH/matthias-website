@@ -1,7 +1,7 @@
 <header class="site-header">
   <div class="nav-wrap">
-    <a class="brand js-anim" data-anim="animate__fadeInDown" data-once="true" href="{{ '/' | relative_url }}" aria-label="Startseite Matthias Kühnlein">
-      <img class="brand-logo" src="{{ '/assets/img/logo.png' | relative_url }}" alt="Matthias Kühnlein" />
+    <a class="brand js-anim" data-anim="animate__fadeInDown" data-once="true" href="/" aria-label="Startseite Matthias Kühnlein">
+      <img class="brand-logo" src="/assets/img/logo.png" alt="Matthias Kühnlein" />
     </a>
 
     <button class="nav-toggle" type="button" aria-label="Menü öffnen" aria-controls="primary-nav" aria-expanded="false" id="navToggle">
@@ -11,11 +11,11 @@
     </button>
 
     <nav class="nav-links js-anim" id="primary-nav" data-anim="animate__fadeInDown" data-once="true" aria-label="Hauptnavigation">
-      <a class="nav-link {% if page.url == '/' %}is-active{% endif %}" href="{{ '/' | relative_url }}">Start</a>
-      <a class="nav-link {% if page.url contains '/ueber-mich/' %}is-active{% endif %}" href="{{ '/ueber-mich/' | relative_url }}">Über mich</a>
-      <a class="nav-link {% if page.url contains '/leistungen/' %}is-active{% endif %}" href="{{ '/leistungen/' | relative_url }}">Leistungen</a>
-      <a class="nav-link {% if page.url contains '/projekte/' %}is-active{% endif %}" href="{{ '/projekte/' | relative_url }}">Projekte</a>
-      <a class="nav-link {% if page.url contains '/kontakt/' %}is-active{% endif %}" href="{{ '/kontakt/' | relative_url }}">Kontakt</a>
+      <a class="nav-link {% if page.url == '/' %}is-active{% endif %}" href="/">Start</a>
+      <a class="nav-link {% if page.url contains '/ueber-mich/' %}is-active{% endif %}" href="/ueber-mich/">Über mich</a>
+      <a class="nav-link {% if page.url contains '/leistungen/' %}is-active{% endif %}" href="/leistungen/">Leistungen</a>
+      <a class="nav-link {% if page.url contains '/projekte/' %}is-active{% endif %}" href="/projekte/">Projekte</a>
+      <a class="nav-link {% if page.url contains '/kontakt/' %}is-active{% endif %}" href="/kontakt/">Kontakt</a>
     </nav>
   </div>
 </header>

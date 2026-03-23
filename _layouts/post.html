@@ -5,16 +5,16 @@ layout: default
 <article class="blog-post section">
   <div class="container">
     <nav class="breadcrumb js-anim" data-anim="animate__fadeIn" data-once="true" aria-label="Breadcrumb">
-      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="/">Home</a>
       <span>/</span>
-      <a href="{{ '/blog/' | relative_url }}">Insights</a>
+      <a href="/blog/">Insights</a>
       <span>/</span>
       <span aria-current="page">{{ page.title }}</span>
     </nav>
 
     <figure class="blog-hero-media js-anim" data-anim="animate__fadeIn" data-once="true">
       <img
-        src="{{ page.hero_image | default: '/assets/img/blog/professional-reviewing-documents-and-laptop-in-an.png' | relative_url }}"
+        src="{{ page.hero_image | default: '/assets/img/blog/professional-reviewing-documents-and-laptop-in-an.png' }}"
         alt="{{ page.hero_alt | default: page.title }}"
         loading="lazy" />
     </figure>
@@ -27,6 +27,6 @@ layout: default
     <div class="blog-post-content">
       {{ content }}
     </div>
-    <a class="btn btn-secondary" href="{{ '/blog/' | relative_url }}">Zurück zu Insights</a>
+    <a class="btn btn-secondary" href="/blog/">Zurück zu Insights</a>
   </div>
 </article>

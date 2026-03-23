@@ -5,7 +5,7 @@
     <div class="benefits-grid">
       {% for c in site.data.home.benefits.cards %}
         <article class="benefit">
-          <img class="benefit-img" src="{{ c.image | relative_url }}" alt="{{ c.image_alt }}" loading="lazy" />
+          <img class="benefit-img" src="{{ c.image }}" alt="{{ c.image_alt }}" loading="lazy" />
           <div>
             <h3>{{ c.title }}</h3>
             <ul class="list">

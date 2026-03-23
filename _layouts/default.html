@@ -10,20 +10,20 @@
 
     <title>{{ seo_title | escape }}</title>
     <meta name="description" content="{{ seo_description | strip_html | strip_newlines | escape }}" />
-    <link rel="canonical" href="{{ page.url | absolute_url }}" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
     <meta property="og:locale" content="de_DE" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ seo_title | escape }}" />
     <meta property="og:description" content="{{ seo_description | strip_html | strip_newlines | escape }}" />
-    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     <meta property="og:site_name" content="{{ site.title | escape }}" />
-    <meta property="og:image" content="{{ seo_image | absolute_url }}" />
+    <meta property="og:image" content="{{ site.url }}{{ seo_image }}" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="{{ seo_title | escape }}" />
     <meta name="twitter:description" content="{{ seo_description | strip_html | strip_newlines | escape }}" />
-    <meta name="twitter:image" content="{{ seo_image | absolute_url }}" />
+    <meta name="twitter:image" content="{{ site.url }}{{ seo_image }}" />
 
     {% if page.noindex %}
       <meta name="robots" content="noindex, nofollow" />
@@ -35,10 +35,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="{{ '/assets/fonts/fonts.css' | relative_url }}" />
-    <link rel="stylesheet" href="{{ '/assets/css/animate.min.css' | relative_url }}" />
-    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}" />
-    <link rel="stylesheet" href="{{ '/cookie-banner/cookiebanner.style.css' | relative_url }}" />
+    <link rel="stylesheet" href="/assets/fonts/fonts.css" />
+    <link rel="stylesheet" href="/assets/css/animate.min.css" />
+    <link rel="stylesheet" href="/assets/css/site.css" />
+    <link rel="stylesheet" href="/cookie-banner/cookiebanner.style.css" />
 
     <script type="application/ld+json">
       {
@@ -49,7 +49,7 @@
         "url": "{{ site.url }}{{ site.baseurl }}",
         "telephone": "+49 176 26470813",
         "email": "{{ site.email }}",
-        "image": "{{ site.default_og_image | absolute_url }}",
+        "image": "{{ site.url }}{{ site.default_og_image }}",
         "address": {
           "@type": "PostalAddress",
           "addressCountry": "DE"
@@ -74,7 +74,7 @@
     {% include footer.html %}
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="{{ '/cookie-banner/cookiebanner.script.js' | relative_url }}"></script>
+    <script src="/cookie-banner/cookiebanner.script.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         if (window.cookieBanner && typeof window.cookieBanner.init === "function") {

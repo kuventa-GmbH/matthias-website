@@ -125,6 +125,6 @@ nav_order: 4
   <div class="container center js-anim" data-anim="animate__fadeInUp" data-once="true">
     <h2 class="sec-heading">Sie möchten ein ähnliches Vorhaben besprechen?</h2>
     <p>Für Audit-Vorbereitung, IAM/PAM-Programme, Risikomanagement und regulatoriknahe Umsetzungsbegleitung steht Matthias Kühnlein für ein Erstgespräch zur Verfügung.</p>
-    <a class="btn btn-primary" href="{{ '/kontakt/' | relative_url }}">Jetzt Kontakt aufnehmen</a>
+    <a class="btn btn-primary" href="/kontakt/">Jetzt Kontakt aufnehmen</a>
   </div>
 </section>

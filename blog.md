@@ -17,19 +17,19 @@ permalink: /blog/
     <div class="blog-feed">
       {% for post in site.posts %}
         <article class="blog-entry">
-          <a class="blog-entry-media" href="{{ post.url | relative_url }}">
+          <a class="blog-entry-media" href="{{ post.url }}">
             <img
-              src="{{ post.hero_image | default: '/assets/img/blog/professional-reviewing-documents-and-laptop-in-an.png' | relative_url }}"
+              src="{{ post.hero_image | default: '/assets/img/blog/professional-reviewing-documents-and-laptop-in-an.png' }}"
               alt="{{ post.hero_alt | default: post.title }}"
               loading="lazy" />
           </a>
           <div class="blog-entry-body">
             <p class="blog-date">{{ post.date | date: "%d.%m.%Y" }}</p>
-            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
             {% if post.excerpt %}
               <p>{{ post.excerpt | strip_html | truncate: 260 }}</p>
             {% endif %}
-            <a class="blog-entry-link" href="{{ post.url | relative_url }}">Beitrag lesen</a>
+            <a class="blog-entry-link" href="{{ post.url }}">Beitrag lesen</a>
           </div>
         </article>
       {% endfor %}

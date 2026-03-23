@@ -5,7 +5,7 @@
     <div class="edu-cards">
       {% for c in site.data.about.education.cards %}
         <div class="edu-card js-anim" data-anim="animate__fadeInUp">
-          <div class="edu-icon"><img src="{{ c.icon | relative_url }}" alt="" loading="lazy" /></div>
+          <div class="edu-icon"><img src="{{ c.icon }}" alt="" loading="lazy" /></div>
           {% if c.date != '' %}
             <div class="edu-date">{{ c.date }}</div>
           {% endif %}

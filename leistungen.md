@@ -18,7 +18,7 @@ nav_order: 3
   <div class="container">
     <div class="benefits-grid">
       <article class="benefit js-anim" data-anim="animate__fadeInUp" data-once="true">
-        <img class="benefit-img" src="{{ '/assets/img/blog/businessmeeting-in-einem-konferenzraum-zwei-bis-dr2.png' | relative_url }}" alt="Platzhalterbild für IT Compliance" loading="lazy" />
+        <img class="benefit-img" src="/assets/img/blog/businessmeeting-in-einem-konferenzraum-zwei-bis-dr2.png" alt="Platzhalterbild für IT Compliance" loading="lazy" />
         <div>
           <h2>IT Compliance und regulatorische Umsetzungsbegleitung</h2>
           <p><strong>Einordnung:</strong> Regulatorik wird in konkrete Umsetzungsmaßnahmen für IT und Fachbereiche übersetzt.</p>
@@ -32,7 +32,7 @@ nav_order: 3
       </article>
 
       <article class="benefit js-anim" data-anim="animate__fadeInUp" data-once="true">
-        <img class="benefit-img" src="{{ '/assets/img/blog/professional-reviewing-documents-and-laptop-in-an.png' | relative_url }}" alt="Platzhalterbild für Audit-Vorbereitung" loading="lazy" />
+        <img class="benefit-img" src="/assets/img/blog/professional-reviewing-documents-and-laptop-in-an.png" alt="Platzhalterbild für Audit-Vorbereitung" loading="lazy" />
         <div>
           <h2>ISO 27001 / ISMS / Audit-Unterstützung</h2>
           <p><strong>Einordnung:</strong> Vorbereitung auf interne und externe Audits mit klarem Fokus auf Umsetzbarkeit.</p>
@@ -46,7 +46,7 @@ nav_order: 3
       </article>
 
       <article class="benefit js-anim" data-anim="animate__fadeInUp" data-once="true">
-        <img class="benefit-img" src="{{ '/assets/img/blog/small-team-35-people-in-a-modern-office-discussing.png' | relative_url }}" alt="Platzhalterbild für IAM-Analyse" loading="lazy" />
+        <img class="benefit-img" src="/assets/img/blog/small-team-35-people-in-a-modern-office-discussing.png" alt="Platzhalterbild für IAM-Analyse" loading="lazy" />
         <div>
           <h2>IAM Analyse und Optimierung</h2>
           <p><strong>Einordnung:</strong> Bewertung bestehender Identity- und Berechtigungsprozesse inklusive Governance-Sicht.</p>
@@ -60,7 +60,7 @@ nav_order: 3
       </article>
 
       <article class="benefit js-anim" data-anim="animate__fadeInUp" data-once="true">
-        <img class="benefit-img" src="{{ '/assets/img/blog/closeup-of-hands-holding-a-digital-keycard-and-a-t.png' | relative_url }}" alt="Platzhalterbild für PAM Assessment" loading="lazy" />
+        <img class="benefit-img" src="/assets/img/blog/closeup-of-hands-holding-a-digital-keycard-and-a-t.png" alt="Platzhalterbild für PAM Assessment" loading="lazy" />
         <div>
           <h2>PAM Assessment und Umsetzungsbegleitung</h2>
           <p><strong>Einordnung:</strong> Strukturierte Bewertung privilegierter Zugriffe und ihrer Kontrollmechanismen.</p>
@@ -74,7 +74,7 @@ nav_order: 3
       </article>
 
       <article class="benefit js-anim" data-anim="animate__fadeInUp" data-once="true">
-        <img class="benefit-img" src="{{ '/assets/img/blog/business-meeting-in-a-modern-office-diverse-team-s1.png' | relative_url }}" alt="Platzhalterbild für IT-Risikomanagement" loading="lazy" />
+        <img class="benefit-img" src="/assets/img/blog/business-meeting-in-a-modern-office-diverse-team-s1.png" alt="Platzhalterbild für IT-Risikomanagement" loading="lazy" />
         <div>
           <h2>IT-Risikomanagement</h2>
           <p><strong>Einordnung:</strong> Risiken werden systematisch bewertet und in steuerbare Maßnahmen überführt.</p>
@@ -88,7 +88,7 @@ nav_order: 3
       </article>
 
       <article class="benefit js-anim" data-anim="animate__fadeInUp" data-once="true">
-        <img class="benefit-img" src="{{ '/assets/img/blog/two-business-colleagues-looking-at-a-laptop-screen.png' | relative_url }}" alt="Platzhalterbild für Security-Projektsteuerung" loading="lazy" />
+        <img class="benefit-img" src="/assets/img/blog/two-business-colleagues-looking-at-a-laptop-screen.png" alt="Platzhalterbild für Security-Projektsteuerung" loading="lazy" />
         <div>
           <h2>Security-Projekte, Governance und Stakeholder-Management</h2>
           <p><strong>Einordnung:</strong> Steuerung komplexer Sicherheitsprogramme zwischen Fachbereich, IT, Security und Management.</p>
@@ -108,6 +108,6 @@ nav_order: 3
   <div class="container center js-anim" data-anim="animate__fadeInUp" data-once="true">
     <h2 class="sec-heading">Sie benötigen kurzfristig Unterstützung?</h2>
     <p>Mandate sind für Beratungsgespräche, Projektanfragen und Interim-Einsätze in regulierten Unternehmensumfeldern ausgelegt.</p>
-    <a class="btn btn-primary" href="{{ '/kontakt/' | relative_url }}">Jetzt unverbindlich anfragen</a>
+    <a class="btn btn-primary" href="/kontakt/">Jetzt unverbindlich anfragen</a>
   </div>
 </section>
